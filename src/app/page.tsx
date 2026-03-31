@@ -298,7 +298,7 @@ function Experience() {
 
         <div className="relative">
           {/* Timeline line */}
-          <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-[2px] timeline-line md:-translate-x-1/2" />
+          <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 timeline-line md:-translate-x-1/2" />
 
           <div className="space-y-10 sm:space-y-12 md:space-y-16">
             {experiences.map((exp, i) => {
@@ -342,7 +342,7 @@ function Experience() {
                     <ul className={`mt-4 space-y-2.5 text-left ${isLeft ? "md:ml-auto md:max-w-sm" : "md:max-w-sm"}`}>
                       {exp.highlights.map((h) => (
                         <li key={h} className="text-sm text-muted leading-relaxed flex items-start gap-2.5">
-                          <span className="mt-[7px] w-1.5 h-1.5 rounded-full bg-accent/70 shrink-0" />
+                          <span className="mt-1.75 w-1.5 h-1.5 rounded-full bg-accent/70 shrink-0" />
                           <span>{h}</span>
                         </li>
                       ))}
