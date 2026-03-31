@@ -14,11 +14,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sean Suntoso — Software Engineer",
+  title: "Sean Michael Suntoso — AI and Web3 Software Engineer",
   description:
     "Software Engineer based in Hong Kong. Building smart contracts, AI systems, and cloud infrastructure.",
   openGraph: {
-    title: "Sean Suntoso — Software Engineer",
+    title: "Sean Michael Suntoso — AI and Web3 Software Engineer",
     description:
       "Software Engineer based in Hong Kong. Building smart contracts, AI systems, and cloud infrastructure.",
     url: "https://seansuntoso.com",
